@@ -12,7 +12,9 @@ pos AS (SELECT x, y,
 )
 SELECT svgDoc(  array_agg(
 		              svgPolygon( ARRAY[ x + w, y,   x, y - w,   x - w, y,   x, y + w ]) ),
-          style => svgStyle( 'background-color', '#0000ff', 'fill', '#000000' ),
+          style => svgStyle( 
+            'background-color', '#0000ff', 
+            'fill', '#000000' ),
   		    viewbox => '1 1 9 9'
   	) AS svg
   FROM pos;
