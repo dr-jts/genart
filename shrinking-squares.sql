@@ -10,10 +10,9 @@ pos AS (SELECT x, y,
   FROM        generate_series(1, 10) AS x(x)
   CROSS JOIN  generate_series(1, 10) AS y(y)
 )
---SELECT * from box;
 SELECT svgDoc(  array_agg(
-		                  svgPolygon( ARRAY[ x + w, y,   x, y - w,   x - w, y,   x, y + w ]) ),
-                style => svgStyle( 'background-color', '#0000ff', 'fill', '#000000' ),
-  		          viewbox => '1 1 9 9'
+		              svgPolygon( ARRAY[ x + w, y,   x, y - w,   x - w, y,   x, y + w ]) ),
+          style => svgStyle( 'background-color', '#0000ff', 'fill', '#000000' ),
+  		    viewbox => '1 1 9 9'
   	) AS svg
   FROM pos;
