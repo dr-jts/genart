@@ -2,3 +2,5 @@
 
 ![](shrinking-squares.svg)
 
+![](annealing-squares.svg)
+
