@@ -6,3 +6,4 @@
 * [pg_SVG](https://github.com/dr-jts/pg_svg)
 
 
+![](annealing-squares.svg)
