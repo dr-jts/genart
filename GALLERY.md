@@ -4,3 +4,5 @@
 
 ![](annealing-squares.svg)
 
+![](diamond-circles.svg)
+
