@@ -1,5 +1,5 @@
 -- ---------------------------------
--- Annealing Squares
+-- Spiralling nested squares
 --
 -- psql -A -t -o spiral-nested-squares.svg  < spiral-nested-squares.sql
 -- ---------------------------------

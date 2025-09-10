@@ -1,5 +1,5 @@
 -- ---------------------------------
--- Annealing Squares
+-- Spiralling nested hexagons
 --
 -- psql -A -t -o spiral-nested-hexes.svg  < spiral-nested-hexes.sql
 -- ---------------------------------

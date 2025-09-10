@@ -1,5 +1,5 @@
 -- ---------------------------------
--- Annealing Squares
+-- Spiralling nested N-gons
 --
 -- psql -A -t -o spiral-nested-polys.svg  < spiral-nested-polys.sql
 -- ---------------------------------
